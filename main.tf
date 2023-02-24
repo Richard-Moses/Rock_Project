@@ -90,7 +90,7 @@ resource "aws_route_table_association""pri-route-association"{
  
 resource "aws_route_table_association""pri2-route-association"{ 
   subnet_id = aws_subnet.Prod-pri-sub2.id
-   route_table_id =aws_route_table.RT_Private_Side.id
+   route_table_id = aws_route_table.RT_Private_Side.id
  
  }
  ####Allocate  elastic IP address
