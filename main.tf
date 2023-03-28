@@ -160,3 +160,4 @@ resource "aws_route" "Prod-Nat-association" {
 
 
 
+ec2-34-248-211-27.eu-west-1.compute.amazonaws.com
